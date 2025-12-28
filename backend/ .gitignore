@@ -1,0 +1,3 @@
+.env
+__pycache__/
+vertex_key.json
