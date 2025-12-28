@@ -4,7 +4,7 @@
 
 ---
 
-## 🌍 Overview
+## Overview
 
 Modern wellness and productivity systems often assume burnout is caused by poor habits or lack of motivation. However, for many women, the root cause is **chronic invisible cognitive load** — the continuous mental effort involved in planning, remembering, coordinating, anticipating, and emotionally managing tasks.
 
@@ -22,12 +22,12 @@ The **Cognitive Load Redistribution Agent** addresses this gap by detecting cogn
 
 ## 🎯 Target Users & Use Cases
 
-### 👩‍💻 Target Users
+### Target Users
 - Women students and professionals  
 - Women managing multiple roles (academics, work, caregiving)  
 - Users experiencing burnout, chronic fatigue, or habit collapse  
 
-### 🧩 Use Cases
+### Use Cases
 - Early detection of cognitive overload  
 - Understanding why routines fail despite effort  
 - Reducing mental strain through task simplification  
@@ -35,7 +35,7 @@ The **Cognitive Load Redistribution Agent** addresses this gap by detecting cogn
 
 ---
 
-## 🤖 Why an Agentic System?
+## Why an Agentic System?
 
 This problem **cannot be solved** with static rules or a simple chatbot because:
 
@@ -55,7 +55,7 @@ An agentic system enables:
 
 ---
 
-## 🧠 Agent Design
+## Agent Design
 
 ### Primary Agent: Cognitive Load Agent
 
@@ -64,12 +64,12 @@ An agentic system enables:
 - Preserve user wellbeing and habit consistency  
 - Prevent burnout escalation  
 
-#### ⚖️ Constraints
+#### Constraints
 - Limited user attention  
 - Ethical boundaries (non-clinical, decision-support only)  
 - Avoid over-intervention or decision fatigue  
 
-#### 🛠 Responsibilities
+#### Responsibilities
 - Estimate intrinsic, extraneous, and germane cognitive load  
 - Detect overload conditions  
 - Decide whether to simplify, chunk, defer, or take no action  
@@ -77,7 +77,7 @@ An agentic system enables:
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 
 Frontend (React + Tailwind)
@@ -121,7 +121,7 @@ Subsequent inputs may reflect reduced load, demonstrating adaptive behavior over
 
 ---
 
-## 🧪 Implementation Details
+## Implementation Details
 
 ### Cognitive Load Estimation
 - Heuristic-based, interpretable model  
@@ -141,7 +141,7 @@ Subsequent inputs may reflect reduced load, demonstrating adaptive behavior over
 
 ---
 
-## 🧾 Cognitive Relief Checklist
+## Cognitive Relief Checklist
 
 In addition to task simplification, the system provides optional cognitive offloading suggestions such as:
 - Breaking tasks into smaller steps  
@@ -153,7 +153,7 @@ These suggestions reduce mental burden without adding new obligations.
 
 ---
 
-## ⚠️ Ethical Considerations & Limitations
+## Ethical Considerations & Limitations
 
 ### Limitations
 - Relies on self-reported task descriptions  
@@ -167,7 +167,7 @@ These suggestions reduce mental burden without adding new obligations.
 
 ---
 
-## 🚀 Setup & Execution
+## Setup & Execution
 
 ### Backend
 ```bash
@@ -176,10 +176,23 @@ pip install -r requirements.txt
 uvicorn api:app --reload
 
 -----
-
+```
 ### Frontend
 ```bash
 cd frontend
 npm install
 npm run dev
+
+
+
+````
+
+## What This Project Demonstrates
+- Agentic reasoning and autonomy  
+- Transparent decision-making  
+- Responsible LLM usage  
+- Ethical system boundaries  
+- Real-world applicability for women’s wellness  
+
+💙 **Built with a focus on care, clarity, and cognitive wellbeing.**
 
