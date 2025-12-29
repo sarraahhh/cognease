@@ -163,7 +163,7 @@ function App() {
           {activeTab === "dashboard" && (
             <div className="max-w-7xl mx-auto space-y-8">
               <TaskInputPanel onAddTask={handleAddTask} />
-              <SimplifiedOutputPanel output={simplifiedOutput} />
+              
               <SimplifiedOutputPanel output={simplifiedOutput} />
 <CognitiveChecklist />
 
